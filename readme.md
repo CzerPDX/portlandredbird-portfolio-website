@@ -27,7 +27,4 @@ This project is configured to be deployed on Bluehost using the Git™ Version C
 ## Refactoring and Assistance
 This project was originally developed a few years ago, and its codebase was recently refactored and improved with the assistance of OpenAI's GPT-4 language model. The AI model provided helpful suggestions and guidance to ensure the code is cleaner, more efficient, and adheres to modern best practices.
 
-If you're interested in using AI language models like GPT-4 for similar purposes, you can visit OpenAI's website (https://www.openai.com/) to learn more about their offerings and capabilities.
-
-
 If you're wondering, I let ChatGPT generate the readme and its own contribution statement as well, because I think it earned it! This refactor is much better!
