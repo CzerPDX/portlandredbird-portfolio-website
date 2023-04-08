@@ -1,6 +1,6 @@
 # Brooke Redbird Portfolio
 
-This is the source code for Brooke Redbird's portfolio website. The website showcases Brooke's work in illustration, graphic design, and web design.
+This is the source code for Brooke Redbird's portfolio website. The website showcases Brooke's work in illustration, graphic design, and web design. It was completed about 2018, however it was recently refactored using OpenAI's GPT-4 as it was built before the author attended and then graduated with a computer science degree.
 
 ## Libraries and frameworks used
 
