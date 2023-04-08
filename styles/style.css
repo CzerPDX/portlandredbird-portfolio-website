@@ -1,0 +1,284 @@
+/*
+Author:  Brooke Redbird
+Title: style.css
+Portfolio Basic CSS Overrides
+*/
+
+
+/*-------------------  General Styling -------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Muli:300,600|Open+Sans:400,600');
+
+h1, h2, h3 {
+    font-family: "Muli", sans-serif;
+    font-weight: 300;
+    color: #111;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+/*-------------------  Navigation -------------------*/
+
+#navLinewrap {
+    display: none;
+    position: absolute;
+    right: 0;
+    color: #aaa;
+    padding: 12px;
+    cursor: pointer;
+    z-index: 100;
+    background: none;
+    border: none;
+}
+
+.navbar-brand, .navbar-brand h2, .navbar-brand a {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 50px;
+    color: #FFF;
+    font-weight: 600;
+}
+
+.nav {
+    color: #CCC;
+    font-family: "Muli", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.navWrap {
+    width: 100%;
+    background-color: #222;
+}
+
+.navbar {
+    max-width: 1176px;
+    margin: 0 auto;
+    border-radius: 0;
+}
+
+.navbar-inverse {
+    border: none;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #FFF;
+}
+
+.dropdown-menu {
+    background-color: #111;
+    top: 49px;
+    min-width: 200px;
+    padding: 0 0 5px 0;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+}
+
+.dropdown-menu > li > a, .dropdown-menu > li > p {
+    color: #AAA;
+    padding: 0 15px 0 0;
+    text-indent: 15px;
+    height: 30px;
+    line-height: 30px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+    color: #FFF;
+    background-color: #222;
+}
+
+.navbar-right i, .navbar-right p {
+    display: inline;
+}
+
+.navbar-right p {
+    padding-left: 5px;
+}
+
+.dropdown-icon {
+    max-height: 1em;
+}
+
+/*-------------------  Home Page Boxes  -------------------*/
+
+.boxWrap {
+    margin: 50px 0;
+}
+
+.homeBoxes {
+    margin: 0 auto;
+    background-position: left center;
+    height: 400px;
+    width: 400px;
+    margin-bottom: 10px;
+    box-shadow: 0px 5px 3px rgba(0,0,0,.2);
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+
+.webBox {
+    background-image: url("../images/portfolio/web/bonzi/bonzi-sites-12.jpg");
+    background-size: 230%;
+    background-position: 69% 0%;
+    background-repeat: no-repeat;
+}
+
+.webBox a {
+    display: block;
+}
+
+.designBox {
+    background-image: url("../images/portfolio/design/all/0_bz_portlandtreeslogo.jpg");
+    background-position: center 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.illusBox {
+    background-image: url("../images/portfolio/illus/all/1_personal-illustration-2.jpg");
+    background-size: cover;
+}
+
+.boxCaptions {
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.boxCaptions h1, .boxCaptions h2, .boxCaptions h3 {
+    font-weight: 600;
+    font-size: 2em;
+    letter-spacing: .15em;
+}
+
+/*-------------------  Portfolio -------------------*/
+
+.portfolio {
+    padding-bottom: 25px;
+}
+
+.portfolioTitle {
+    margin: 50px 0 10px;
+}
+
+.portfolio-items figure {
+    margin-bottom: 0px;
+}
+
+.portfolio-sorting {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.portfolio-sorting li {
+    padding: 3px 9px;
+}
+
+.portfolio-sorting a {
+    color: #AAA;
+}
+
+.portfolio-sorta li figure a img {
+    padding-bottom: 20px;
+}
+
+.portfolio-sorting a:hover, .portfolio-sorting a:active, .portfolio-sorting a:focus {
+    text-decoration: none;
+    color: #111;
+    border-bottom: 2px solid #111;
+}
+
+.portfolio-items li {
+    padding-bottom: 25px;
+}
+
+@keyframes before-after-fade {
+    0%      {opacity: 1;}
+    45%     {opacity: 0;}
+    50%     {opacity: 0;}
+    95%     {opacity: 1;}
+    100%    {opacity: 1;}
+}
+
+.after-image {
+    position: absolute;
+    padding-left: 15px;
+    padding-right: 15px;
+    left: 0;
+}
+
+.after-image:hover {
+    animation: before-after-fade 4s infinite;
+}
+
+/*-------------------  Lightbox Customization -------------------*/
+
+.lb-data .lb-close {
+    float: left;
+    margin: 0 0 5px -8px;
+}
+
+/*-------------------  Resume  -------------------*/
+
+.resume {
+    padding: 0 10px 20px;
+    margin: 0 auto;
+}
+
+.resume td {
+    padding-right: 20px;
+    padding-bottom: 3px;
+}
+
+
+/*-------------------  Responsive Design  -------------------*/
+
+/*--------------  Mobile Navigation --------------*/
+
+/* No greater than 1300px */
+@media (max-width:1300px) {
+    .homeBoxes {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+/* No greater than 991px, no less than 768px */
+@media (max-width:991px) and (min-width:768px) {
+    .navbar-right p {
+    display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-header {
+        padding: 10px 0;
+    }
+    
+    #navLinewrap {
+        display: block
+    }
+    
+    #navMobile {
+        display: none;
+    }
+    
+    .portfolioTitle {
+        font-size: 3em;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #navMobile {
+        display: block;
+    }
+}

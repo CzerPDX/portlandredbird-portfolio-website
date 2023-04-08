@@ -1,0 +1,31 @@
+# Ignore composer dependencies
+/vendor/
+
+# Ignore composer lock file
+composer.lock
+
+# Ignore PHPStorm files
+.idea/
+
+# Ignore logs
+/log/
+
+# Ignore cache
+/cache/
+
+# Ignore sessions
+/sessions/
+
+# Ignore environment file
+.env
+
+# Ignore compiled assets
+/public/build/
+
+# Ignore configuration files that may contain sensitive information
+/config/database.php
+/config/app.php
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
