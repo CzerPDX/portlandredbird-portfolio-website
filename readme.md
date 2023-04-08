@@ -24,6 +24,11 @@ This is the source code for Brooke Redbird's portfolio website. The website show
 3. Place the project files in the appropriate directory for your local server.
 4. Open a web browser and navigate to the local server URL (e.g., `http://localhost/your_project_folder/`).
 
+## Deployment
+
+This project is configured to be deployed on Bluehost using the Git™ Version Control feature. A `.cpanel.yml` file is included to handle the deployment process. For more information on how to deploy using Bluehost, refer to [Bluehost's documentation](https://www.bluehost.com/help/article/git-deployment).
+
+
 
 ## Refactoring and Assistance
 
