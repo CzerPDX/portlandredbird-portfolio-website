@@ -29,6 +29,3 @@ composer.lock
 # Ignore operating system files
 .DS_Store
 Thumbs.db
-
-# Ignore the deploy script
-.cpanel.yml

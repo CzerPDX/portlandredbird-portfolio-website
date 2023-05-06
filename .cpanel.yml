@@ -1,0 +1,42 @@
+---
+deployment:
+  tasks:
+    # Set the deploy path
+    - export DEPLOYPATH=/home/portla22/public_html/
+
+
+    # Core site files
+    # Main landing page and site components
+    - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp header.php $DEPLOYPATH
+    - /bin/cp nav.php $DEPLOYPATH
+    - /bin/cp footer.php $DEPLOYPATH
+
+    # PHP Functions
+    - /bin/cp portfolio-functions.php $DEPLOYPATH
+
+    # Media
+    - /bin/cp -R images/ $DEPLOYPATH/images/
+    - /bin/cp -R js/ $DEPLOYPATH/js/
+    - /bin/cp -R styles/ $DEPLOYPATH/styles/
+    - /bin/cp favicon-white.png $DEPLOYPATH
+    - /bin/cp favicon.ico $DEPLOYPATH
+    - /bin/cp favicon.png $DEPLOYPATH
+
+
+    # Portfolio sections and pages
+    # Design pages
+    - /bin/cp design-fb.php $DEPLOYPATH
+    - /bin/cp design-layout.php $DEPLOYPATH
+    - /bin/cp design-logos.php $DEPLOYPATH
+    - /bin/cp design-photo-edit.php $DEPLOYPATH
+    - /bin/cp design-ui.php $DEPLOYPATH
+    - /bin/cp design-var.php $DEPLOYPATH
+    
+    # Illustration pages
+    - /bin/cp illus-mobile.php $DEPLOYPATH
+    - /bin/cp illus-var.php $DEPLOYPATH
+    - /bin/cp illus-zeez.php $DEPLOYPATH
+    
+    # Youth sports website pages
+    - /bin/cp web-sports.php $DEPLOYPATH
