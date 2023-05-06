@@ -109,7 +109,8 @@ h1 {
 /*-------------------  Home Page Boxes  -------------------*/
 
 .boxWrap {
-    margin: 50px 0;
+    margin: 50px auto;
+    max-width: 1600px;
 }
 
 .homeBoxes {
