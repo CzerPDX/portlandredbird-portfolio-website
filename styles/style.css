@@ -135,14 +135,14 @@ h1 {
 }
 
 .designBox {
-    background-image: url("../images/portfolio/design/0_bz_portlandtreeslogo.jpg");
+    background-image: url("../images/portfolio/design/logos/2_portlandtreeslogo.jpg");
     background-position: center 50%;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .illusBox {
-    background-image: url("../images/portfolio/illus/1_personal-illustration-2.jpg");
+    background-image: url("../images/portfolio/illus/var/1_personal-illustration-1.jpg");
     background-size: cover;
 }
 
