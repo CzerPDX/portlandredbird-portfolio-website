@@ -1,9 +1,7 @@
----
 deployment:
   tasks:
     # Set the deploy path
     - export DEPLOYPATH=/home/portla22/public_html/
-
 
     # Core site files
     # Main landing page and site components
@@ -22,7 +20,6 @@ deployment:
     - /bin/cp favicon-white.png $DEPLOYPATH
     - /bin/cp favicon.ico $DEPLOYPATH
     - /bin/cp favicon.png $DEPLOYPATH
-
 
     # Portfolio sections and pages
     # Design pages
