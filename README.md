@@ -20,10 +20,6 @@ This is the source code for Brooke Redbird's (Czerwinski) portfolio website. The
 3. Place the project files in the appropriate folder for your server.
 4. Open a web browser and navigate to the local server URL (e.g., `http://localhost/your_project_folder/`).
 
-## Deployment
-This project is configured to be deployed on Bluehost using the Git™ Version Control feature. A `.cpanel.yml` file is included to handle the deployment process. For more information on how to deploy using Bluehost, refer to [Bluehost's documentation](https://www.bluehost.com/help/article/git-deployment).
-
-
 ## Refactoring and Assistance
 This project was originally developed a few years ago, and its codebase was recently refactored and improved with the assistance of OpenAI's GPT-4 language model. The AI model provided helpful suggestions and guidance to ensure the code is cleaner, more efficient, and adheres to modern best practices.
 
