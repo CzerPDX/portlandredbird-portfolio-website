@@ -14,12 +14,13 @@ deployment:
     - /bin/cp portfolio-functions.php $DEPLOYPATH
 
     # Media
-    - /bin/cp -R images/ $DEPLOYPATH/images/
-    - /bin/cp -R js/ $DEPLOYPATH/js/
-    - /bin/cp -R styles/ $DEPLOYPATH/styles/
+    - /bin/cp -R images/ $DEPLOYPATH
+    - /bin/cp -R js/ $DEPLOYPATH
+    - /bin/cp -R styles/ $DEPLOYPATH
     - /bin/cp favicon-white.png $DEPLOYPATH
     - /bin/cp favicon.ico $DEPLOYPATH
     - /bin/cp favicon.png $DEPLOYPATH
+
 
     # Portfolio sections and pages
     # Design pages
