@@ -5,7 +5,7 @@
             <nav class="navbar navbar-inverse">
                 <div class="container-fluid">
                     <div class="navbar-header">
-                        <a class="navbar-brand" href="https://portlandredbird.com"><h2>Portfolio</h2></a>
+                        <a class="navbar-brand" href="/"><h2>Portfolio</h2></a>
                     </div>
                     <div id="navMobile">
                         <ul class="nav navbar-nav">
